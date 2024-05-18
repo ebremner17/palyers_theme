@@ -139,3 +139,35 @@ body.toolbar-tray-open.toolbar-vertical.toolbar-fixed {
   margin-left: 0;
   margin-right: 0;
 }
+
+#callnowbutton {
+  background-color: #008A00;
+  color: #ffffff;
+  position: fixed;
+  bottom: 0;
+  z-index: 1000;
+
+  &.cnb-full {
+    justify-content: center;
+    align-items: center;
+    text-shadow: 0 1px 0 rgba(0,0,0,.18);
+    width: 100%;
+    left: 0;
+    height: 60px;
+  }
+
+  &.cnb-text {
+    text-align: center;
+    color: #FFF;
+    font-weight: 600;
+    font-size: 120%;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+
+  &.cnb-displaymode-mobile-only {
+    display: flex;
+    position: fixed;
+    text-decoration: none;
+  }
+}
