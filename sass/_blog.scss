@@ -1,0 +1,28 @@
+.view-players-view-blog {
+
+  max-width: 63rem;
+  margin-left: auto;
+  margin-right: auto;
+
+  a {
+    display: block;
+  }
+
+  .views-field-title {
+    display: block;
+    text-transform: uppercase;
+
+    a {
+      text-decoration: none;
+      color: black;
+      font-weight: bold;
+    }
+  }
+
+  .views-field-field-blog-image {
+    img {
+      max-height: 200px;
+      height: inherit;
+    }
+  }
+}
