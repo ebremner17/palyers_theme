@@ -38,6 +38,23 @@
     grid-row: 4 / 5;
     text-align: center;
   }
+
+  .players-map-button {
+    display: block;
+    text-decoration: none;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 2px 6px 2px 6px;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    max-width: 150px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .players-map-button:hover {
+    background-color: #FC2B24;
+  }
 }
 
 @media screen and (min-width: 768px) {
