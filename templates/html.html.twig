@@ -42,48 +42,6 @@
       <js-placeholder token="{{ placeholder_token }}">
         {% include '@olivero/includes/preload.twig' with { olivero_path: olivero_path } only %}
         {{ noscript_styles }}
-        {% if is_front %}
-          <script type="application/ld+json">
-            {
-              "@context": "https://schema.org",
-              "@type": "LocalBusiness",
-              "name": "Players Inc Poker Club Toronto",
-              "address": {
-                "@type": "PostalAddress",
-                "streetAddress": "63 Mack Ave",
-                "addressLocality": "Scarborough",
-                "addressRegion": "Ontario",
-                "postalCode": "M1L 1M5"
-              },
-              "image": "https://playersinc.ca/sites/default/files/2024-04/new_chairs.jpg",
-              "telePhone": "647-549-2036",
-              "url": "https://playersinc.ca/",
-              "openingHours": "Mo,Tu,We,Th,Fr,Sa,Su 24/7",
-              "openingHoursSpecification": [
-                {
-                  "@type": "openingHoursSpecification",
-                  "dayOfWeek": [
-                    "Monday",
-                    "Tuesday",
-                    "Wednesday",
-                    "Thursday",
-                    "Friday",
-                    "Saturday",
-                    "Sunday"
-                  ],
-                  "opens": "0",
-                  "closes": "0"
-                }
-              ],
-              "geo": {
-                "@type": "GeoCoordinates",
-                "latitude": "43°42'00.8\"N",
-                "longitude": "79°16'11.8\"W"
-              },
-              "priceRange": "$$"
-            }
-          </script>
-        {% endif %}
 </head>
 <body{{ attributes.addClass(body_classes) }}>
 {#
