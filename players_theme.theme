@@ -59,17 +59,6 @@ function players_theme_preprocess_html(&$variables) {
       '#format' => $config->get('operating_hours')['format'],
     ];
   }
-
-  $variables['page']['#attached']['html_head'][] = [
-    [
-      '#tag' => 'meta',
-      '#attributes' => [
-        'name' => 'p:domain_verify',
-        'content' => '4815a7c274e821e6c80d1976217ea9fb',
-      ],
-    ],
-    'title',
-  ];
 }
 
 /**
