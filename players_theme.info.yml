@@ -2,7 +2,7 @@ name: Players
 type: theme
 description: Theme for Player's Inc
 base theme: olivero
-core_version_requirement: ^9
+core_version_requirement: ^9 | ^10
 
 libraries:
   - core/normalize
